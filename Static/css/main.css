@@ -1,0 +1,57 @@
+/* add style for all template here  */
+ 
+#logo {
+  width: 4%;
+  
+  padding-right: 1em;
+} 
+
+
+.text{
+    font-family: 'Thasadith', sans-serif;
+    
+}
+
+
+#button {
+  color: #141413;
+  background-color: #c7f68d; /*#a8ee04*/
+  font-weight: bold;
+}
+
+body {
+  background-color: #ebeff5;
+}
+
+#navtext {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: rgb(129, 205, 255);
+}
+
+.anav {
+  color: #cfb961;
+  margin-right: 25px;
+}
+a.anav {
+  box-shadow: inset 0 0 0 0 #0b95c7;
+  color: #9cb9ce;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a.anav:hover {
+  box-shadow: inset 150px 0 0 0 #0b95c7;
+  color: #ffffff;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
